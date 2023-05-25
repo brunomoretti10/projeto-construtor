@@ -1,7 +1,7 @@
 class Pessoa {
   String? nome;
   int? idade;
-  Pessoa(this.nome, this.idade); // construtor padrão
+  Pessoa(this.nome, this.idade); // construtor padrão.
   Pessoa.homem(this.nome) {
     // construtor nomeado 1
     idade = 19;
